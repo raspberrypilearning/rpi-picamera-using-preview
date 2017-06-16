@@ -1,11 +1,11 @@
-title: rpi-picamera-using-preview
+title: Previewing your picture with PiCamera
 hero_image: images/banner.png
-description: rpi-picamera-using-preview description
+description: Find out how to show a preview of what the camera can see
 original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 duration: 1 # 1, 2 or 3
 listed: false
-ingredient: false
+ingredient: true
 interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
 technologies: "scratch, python, html/css, micro:bit"
 steps:
