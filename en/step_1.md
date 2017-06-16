@@ -9,6 +9,7 @@
 	camera.start_preview()
 	sleep(2)
 	camera.stop_preview()
+    camera.close()
 	~~~
 
 - Save and run the code and you should see the view from the PiCamera displayed on the screen.
@@ -24,4 +25,5 @@
 	camera.start_preview(alpha=190)
 	sleep(2)
 	camera.stop_preview()
+    camera.close()
 	~~~
