@@ -1,4 +1,4 @@
-- Before you take a picture, it is often a good idea to check what the camera sees. To do this you can use the `start_preview()` and `stop_preview()` methods. Before doing this though, you'll need to also import the `sleep` method from the `time` module, so that you can have a pause between the preview opening and closing.
+- Before you take a picture, it is often a good idea to check what the Camera Module sees. To do this you can use the `start_preview()` and `stop_preview()` methods. First though, you'll need to import the `sleep` method from the `time` module, so that you can have a pause between the preview opening and closing.
 
 	~~~python
 	from picamera import PiCamera
@@ -12,9 +12,9 @@
     camera.close()
 	~~~
 
-- Save and run the code and you should see the view from the PiCamera displayed on the screen.
+- Save and run the code. You should see the view of the Camera Module displayed on the screen.
 
-- You can make the preview slightly transparent. This means if your code crashes, it's easy to find the Python shell and close it, which will kill the preview. To make the preview transparent, you can provide `camera.start_preview()` with an `alpha` value.
+- You can make this preview slightly transparent. You'll want to this in case your code crashes - if the preview is transparent, it's easy to find and close the Python shell and thereby kill the preview. You'll need to provide the `camera.start_preview()` method with an `alpha` value, which determines the preview's transparency.
 
 	~~~python
 	from picamera import PiCamera
