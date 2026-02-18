@@ -20,4 +20,4 @@ cam.stop_preview()
 
 #### Documentation
 
-- [https://raspberrypifoundation.github.io/picamera-zero](https://raspberrypifoundation.github.io/picamera-zero){:target="_blank"}
+- [https://raspberrypifoundation.github.io/picamzero](https://raspberrypifoundation.github.io/picamzero){:target="_blank"}
